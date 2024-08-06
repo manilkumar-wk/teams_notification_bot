@@ -1,0 +1,43 @@
+{
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.9/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.9",
+    "version": "1.0.0",
+    "id": "3774a476-1561-4868-b043-c020d7   931af9", //app-id
+    "packageName": "com.workiva.workivanotificationbot",
+    "developer": {
+        "name": "Workiva",
+        "websiteUrl": "https://www.workiva.com/",
+        "privacyUrl": "https://www.teams.com/privacy", //need to get url
+        "termsOfUseUrl": "https://www.teams.com/termsofuser" //need to get url
+    },
+    "icons": {
+        "outline": "Workiva.jpg"
+    },
+    "name": {
+        "short": "Workiva",
+        "full": "Workiva"
+    },
+    "description": {
+        "short": "Workiva notification bot",
+        "full": "Workiva notification bot"
+    },
+    "accentColor": "#FFFFFF",
+    "bots": [
+        {
+            "botId": "3774a476-1561-4868-b043-c020d9831af9", //bot-id
+            "scopes": [
+                "personal",
+                "team"
+            ],
+            "isNotificationOnly": true,
+            "supportsCalling": false,
+            "supportsVideo": false,
+            "supportsFiles": false
+        }
+    ],
+    "permissions": [
+        "identity",
+        "messageTeamMembers"
+    ],
+    "validDomains": [] //our-app-domain.com
+}

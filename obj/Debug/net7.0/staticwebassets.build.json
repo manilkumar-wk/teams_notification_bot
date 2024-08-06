@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "z5ya0wDcGHdoKA/I63TnDCFogWbaoIsxgEWFVmU5RYY=",
+  "Source": "teams_notification_bot",
+  "BasePath": "_content/teams_notification_bot",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "teams_notification_bot/wwwroot",
+      "Source": "teams_notification_bot",
+      "ContentRoot": "/Users/manilkumar/Documents/Workiva/TeamsApp/teams_notification_bot/wwwroot/",
+      "BasePath": "_content/teams_notification_bot",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/manilkumar/Documents/Workiva/TeamsApp/teams_notification_bot/wwwroot/default.htm",
+      "SourceId": "teams_notification_bot",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/manilkumar/Documents/Workiva/TeamsApp/teams_notification_bot/wwwroot/",
+      "BasePath": "_content/teams_notification_bot",
+      "RelativePath": "default.htm",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/default.htm"
+    }
+  ]
+}

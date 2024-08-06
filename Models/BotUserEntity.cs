@@ -1,0 +1,1 @@
+﻿using System;namespace ProactiveBot.Models{    public class BotUserEntity    {        public string TenantId { get; set; }        public string Name { get; set; }        public string Email { get; set; }        public string UserId { get; set; }        public string ConversationId { get; set; }        public string ServiceUrl { get; set; }    }}

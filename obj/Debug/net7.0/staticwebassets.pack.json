@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/manilkumar/Documents/Workiva/TeamsApp/teams_notification_bot/wwwroot/default.htm",
+      "PackagePath": "staticwebassets/default.htm"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.teams_notification_bot.props",
+      "PackagePath": "build\\teams_notification_bot.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.teams_notification_bot.props",
+      "PackagePath": "buildMultiTargeting\\teams_notification_bot.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.teams_notification_bot.props",
+      "PackagePath": "buildTransitive\\teams_notification_bot.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.teams_notification_bot.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

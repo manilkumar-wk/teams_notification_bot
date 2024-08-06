@@ -1,0 +1,59 @@
+﻿<Properties StartupConfiguration="{73829A44-3FE8-4E0D-B087-D84E3B2B10B8}|.NET Core">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="AdapterWithErrorHandler.cs">
+    <Files>
+      <File FileName="../../TeamsAppManifest/manifest.json" />
+      <File FileName="Bots/ProactiveBot.cs" />
+      <File FileName="Controllers/BotController.cs" />
+      <File FileName="appsettings.json" />
+      <File FileName="AdapterWithErrorHandler.cs" Line="1" Column="1" />
+      <File FileName="Program.cs" />
+      <File FileName="Startup.cs" />
+      <File FileName="Controllers/NotifyController.cs" />
+      <File FileName="Bots/ProactiveBot (copy).cs" />
+      <File FileName="TeamsAppManifest/manifest.json" />
+      <File FileName="Models/BotUserEntity.cs" />
+      <File FileName="Helpers/BotHelper.cs" />
+      <File FileName="Models/NotificationPayload.cs" />
+      <File FileName="README.md" />
+      <File FileName="ProactiveBot.csproj" />
+      <File FileName="ProactiveBot.sln" />
+      <File FileName="Properties/launchSettings.json" />
+      <File FileName="appsettings.Development.json" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ProactiveBot" expanded="True">
+            <Node name="ProactiveBot" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="AdapterWithErrorHandler.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint enabled="false" file="/Users/manilkumar/Documents/Workiva/TeamsApp/16.proactive-messages/Controllers/BotController.cs" relfile="Controllers/BotController.cs" line="29" column="1" />
+      <Breakpoint enabled="false" file="/Users/manilkumar/Documents/Workiva/TeamsApp/16.proactive-messages/AdapterWithErrorHandler.cs" relfile="AdapterWithErrorHandler.cs" line="19" column="1" />
+      <Breakpoint enabled="false" file="/Users/manilkumar/Documents/Workiva/TeamsApp/16.proactive-messages/Bots/ProactiveBot.cs" relfile="Bots/ProactiveBot.cs" line="49" column="1" />
+      <Breakpoint enabled="false" file="/Users/manilkumar/Documents/Workiva/TeamsApp/16.proactive-messages/Bots/ProactiveBot.cs" relfile="Bots/ProactiveBot.cs" line="61" column="1" />
+      <Breakpoint enabled="false" file="/Users/manilkumar/Documents/Workiva/TeamsApp/16.proactive-messages/Controllers/NotifyController.cs" relfile="Controllers/NotifyController.cs" line="48" column="1" />
+      <Breakpoint enabled="false" file="/Users/manilkumar/Documents/Workiva/TeamsApp/16.proactive-messages/Controllers/NotifyController.cs" relfile="Controllers/NotifyController.cs" line="119" column="1" />
+      <Breakpoint enabled="false" file="/Users/manilkumar/Documents/Workiva/TeamsApp/16.proactive-messages/AdapterWithErrorHandler.cs" relfile="AdapterWithErrorHandler.cs" line="17" column="1" />
+      <Breakpoint enabled="false" file="/Users/manilkumar/Documents/Workiva/TeamsApp/16.proactive-messages/AdapterWithErrorHandler.cs" relfile="AdapterWithErrorHandler.cs" line="24" column="1" />
+      <Breakpoint enabled="false" file="/Users/manilkumar/Documents/Workiva/TeamsApp/16.proactive-messages/Helpers/BotHelper.cs" relfile="Helpers/BotHelper.cs" line="32" column="1" />
+      <Breakpoint enabled="false" file="/Users/manilkumar/Documents/Workiva/TeamsApp/16.proactive-messages/Helpers/BotHelper.cs" relfile="Helpers/BotHelper.cs" line="18" column="1" />
+      <Breakpoint enabled="false" file="/Users/manilkumar/Documents/Workiva/TeamsApp/16.proactive-messages/Helpers/BotHelper.cs" relfile="Helpers/BotHelper.cs" line="47" column="1" />
+      <Breakpoint enabled="false" file="/Users/manilkumar/Documents/Workiva/TeamsApp/16.proactive-messages/Controllers/NotifyController.cs" relfile="Controllers/NotifyController.cs" line="86" column="1" />
+      <Breakpoint enabled="false" file="/Users/manilkumar/Documents/Workiva/TeamsApp/16.proactive-messages/Controllers/NotifyController.cs" relfile="Controllers/NotifyController.cs" line="103" column="1" />
+      <Breakpoint file="/Users/manilkumar/Documents/Workiva/TeamsApp/16.proactive-messages/Controllers/NotifyController.cs" relfile="Controllers/NotifyController.cs" line="61" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ProactiveBot PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>

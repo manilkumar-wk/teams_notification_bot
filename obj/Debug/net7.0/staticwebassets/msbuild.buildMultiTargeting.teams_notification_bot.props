@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/teams_notification_bot.props" />
+</Project>
