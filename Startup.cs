@@ -11,21 +11,30 @@ using Microsoft.Bot.Connector.Authentication;
 using Microsoft.Bot.Schema;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using ProactiveBot.Helpers;namespace Microsoft.BotBuilderSamples
+using ProactiveBot.Helpers;
+
+namespace Microsoft.BotBuilderSamples
 {
     public class Startup
     {
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddHttpClient().AddControllers().AddNewtonsoftJson(options =>
-            {
-                options.SerializerSettings.MaxDepth = HttpHelper.BotMessageSerializerSettings.MaxDepth;
-            });
-
+            services
+                .AddHttpClient()
+                .AddControllers()
+                .AddNewtonsoftJson(options =>
+                {
+                    options.SerializerSettings.MaxDepth = HttpHelper
+                        .BotMessageSerializerSettings
+                        .MaxDepth;
+                });
 
             // Create the Bot Framework Authentication to be used with the Bot Adapter.
-            services.AddSingleton<BotFrameworkAuthentication, ConfigurationBotFrameworkAuthentication>();
+            services.AddSingleton<
+                BotFrameworkAuthentication,
+                ConfigurationBotFrameworkAuthentication
+            >();
             services.AddSingleton<BotHelper>();
 
             // Create the Bot Adapter with error handling enabled.
@@ -45,14 +54,17 @@ using ProactiveBot.Helpers;namespace Microsoft.BotBuilderSamples
             {
                 app.UseDeveloperExceptionPage();
             }
-            app.Use(async (context, next) =>
-{    foreach (var header in context.Request.Headers)
-    {
-        Console.WriteLine($"{header.Key}: {header.Value}");
-    }
+            app.Use(
+                async (context, next) =>
+                {
+                    foreach (var header in context.Request.Headers)
+                    {
+                        Console.WriteLine($"{header.Key}: {header.Value}");
+                    }
 
-    await next.Invoke();
-});
+                    await next.Invoke();
+                }
+            );
             app.UseDefaultFiles()
                 .UseStaticFiles()
                 .UseRouting()
